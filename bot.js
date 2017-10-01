@@ -7,7 +7,7 @@ client.on('ready', () => {
 
 client.on('message', msg => {
   if (msg.content === 'gumi') {
-    msg.reply('Acılarımı bile tatlandırıyor aşkın. Yıkıma terkedilmiş kalemin bütün hücrelerine sürülmüş iksir gibisin. Gumi ♥');
+    msg.channel.sendMessage('Acılarımı bile tatlandırıyor aşkın. Yıkıma terkedilmiş kalemin bütün hücrelerine sürülmüş iksir gibisin. Gumi ♥');
   }
 });
 
